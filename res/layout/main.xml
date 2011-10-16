@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:stretchColumns="1">
+		<TableRow>
+			<TextView android:id="@+id/lblToggleService" android:text="@string/lblServiceStatusUnknown"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+
+			<Button android:id="@+id/bToggleService" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+		</TableRow>
+
+		<TableRow>
+			<TextView android:text="@string/lblStartOnBoot"
+				android:id="@+id/TextView02" android:layout_width="wrap_content"
+				android:layout_height="wrap_content"></TextView>
+			<CheckBox android:id="@+id/cStartOnBoot"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+		</TableRow>
+		<TableRow>
+			<TextView android:text="@string/lblSpeedRequired"
+				android:id="@+id/TextView02" android:layout_width="wrap_content"
+				android:layout_height="wrap_content"></TextView>
+			<EditText android:id="@+id/txtSpeedRequired"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:numeric="decimal" android:maxLength="3"/>
+		</TableRow>		
+		<TableRow>
+			<TextView android:text="@string/lblCreateNotificationWithLocation"
+				android:id="@+id/TextView02" android:layout_width="wrap_content"
+				android:layout_height="wrap_content"></TextView>
+			    <Spinner android:id="@+id/sCreateNotificationWithLocationType"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:drawSelectorOnTop="true"
+			        android:prompt="@string/lblCreateNotificationWithLocation"
+			    />
+			
+		</TableRow>					
+
+		<TableRow>
+			<TextView android:text="@string/lblCreateNotificationOnToggle"
+				android:id="@+id/TextView02" android:layout_width="wrap_content"
+				android:layout_height="wrap_content"></TextView>
+			<CheckBox android:id="@+id/cCreateNotificationOnToggle"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+		</TableRow>	
+
+		<TableRow>
+			<TextView android:text="@string/lblAdvancedSettings"
+				android:id="@+id/TextView02" android:layout_width="wrap_content"
+				android:layout_height="wrap_content"></TextView>
+		</TableRow>		
+		
+		<TableRow>
+			<TextView android:text="@string/lblLocationFrequencyTime"
+				android:id="@+id/TextView02" android:layout_width="wrap_content"
+				android:layout_height="wrap_content"></TextView>
+			<EditText android:id="@+id/txtLocationFrequencyTime"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:numeric="decimal" android:maxLength="3"/>
+		</TableRow>
+		<TableRow>
+			<TextView android:text="@string/lblLocationFrequencyDistance"
+				android:id="@+id/TextView02" android:layout_width="wrap_content"
+				android:layout_height="wrap_content"></TextView>
+			<EditText android:id="@+id/txtLocationFrequencyDistance"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:numeric="decimal" android:maxLength="3"/>
+		</TableRow>
+
+	</TableLayout>
+
+
+</LinearLayout>

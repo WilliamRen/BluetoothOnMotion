@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name_setup">Setup Bluetooth On Motion</string>
+    <string name="app_name">Bluetooth On Motion</string>
+		
+	
+	<string name="setupHeader">Setup for Bluetooth on Motion</string>
+	<string name="lblToggleEnable">Service is not running</string>
+	<string name="lblToggleDisable">Service is running</string>	
+	<string name="lblServiceStatusUnknown">Service status is unknown</string>	
+	<string name="bEnableService">Start service</string>
+	<string name="bDisableService">Stop service</string>
+
+	<string name="lblSpeedRequired">Speed required to enable\n(in km/h)</string>
+	<string name="lblStartOnBoot">Start on boot</string>
+	<string name="lblCreateNotificationWithLocation">Car locator beta</string>
+	<string name="lblCreateNotificationOnToggle">Create notification</string>
+	
+	<string name="lblAdvancedSettings">Advanced settings</string>
+	<string name="lblLocationFrequencyTime">Location frequency in seconds\n(0 for all events)</string>
+	<string name="lblLocationFrequencyDistance">Location frequency in meters\n</string>
+	
+	<string name="msgSettingSaved">Settings saved</string>
+	<string name="msgPreferencesCleared">Settings cleared to default values</string>
+	
+	<string name="menuSave">Save</string>
+	<string name="menuReset">Reset to default values</string>
+	<string name="menuHelp">Help</string>
+		
+	
+	<string name="notificationLocationTitle">Car location stored</string>
+	<string name="notificationLocationTicker">Car location stored</string>	
+	<string name="notificationLocationMessage">Click to view car location</string>
+	
+	<string name="notificationEnableTitle">Bluetooth enabled</string>
+	<string name="notificationEnableTicker">Bluetooth enabled due to motion</string>
+	<string name="notificationEnableMessage">Detected by Bluetooth on Motion</string>
+	
+	<string name="notificationDisableTitle">Bluetooth on/off</string>
+	<string name="notificationDisableTicker">Bluetooth on/off</string>
+	<string name="notificationDisableMessage">Detected by Bluetooth on Motion</string>	
+
+</resources>
