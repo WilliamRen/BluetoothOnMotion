@@ -11,7 +11,7 @@
 	<string name="bEnableService">Start service</string>
 	<string name="bDisableService">Stop service</string>
 
-	<string name="lblSpeedRequired">Speed required to enable\n(in km/h)</string>
+	<string name="lblSpeedRequired">Speed required to enable\n(in mph)</string>
 	<string name="lblStartOnBoot">Start on boot</string>
 	<string name="lblCreateNotificationWithLocation">Car locator beta</string>
 	<string name="lblCreateNotificationOnToggle">Create notification</string>
